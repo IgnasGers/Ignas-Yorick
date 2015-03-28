@@ -28,3 +28,12 @@ form{
 	.modal-dialog{
 	position:center;
 }
+.carousel-inner{
+	height:400px;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+.img-rounded{
+	align:center;
+}
