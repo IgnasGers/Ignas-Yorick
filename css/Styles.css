@@ -24,3 +24,16 @@ form{
     margin: 0 auto;
    
 }
+.jumbotron{
+	width: 400px;
+	height:800px;
+	position:relative;
+}
+#gegevensjumbotron{
+	display:flex;
+}
+#homepagejumbotron{
+	width:800px;
+	height:300px;
+}
+
