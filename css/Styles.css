@@ -1,0 +1,28 @@
+﻿body {
+	margin-bottom: 80px;
+}
+span{
+	color:red;
+}
+legend{
+	text-align:center;
+	}
+
+form{
+	align:center ;
+	
+}
+#login{
+	text-align:right;
+}
+
+#hoofdgegevens{
+	margin:auto;
+	width: 400pxpx;
+	text-align:left;
+	position:fixed;
+}
+#hobby{
+	position:static-right;
+	width:500pxpx;
+}
