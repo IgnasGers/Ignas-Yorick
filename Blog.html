@@ -20,53 +20,115 @@
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-static-top">
+
         <div class="container" role="navigation">
-            <a href="blog.html" class="navbar-brand">Blog</a>
+            <a href="#" class="navbar-brand">Blog</a>
             <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+
             <div class="collapse navbar-collapse navHeaderCollapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
+
+                   
+                    <li class=""><a href="index.html">Home</a></li>
                     <li class="active"><a href="blog.html">Blog</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Games<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Google+</a></li>
-                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Game1</a></li>
+                            <li><a href="#">Game2</a></li>
+                            <li><a href="#">Game3</a></li>
+                            <li><a href="#">Game4</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Info<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="Gegevens.html">Gegevens</a></li>
-                            <li><a href="Auto-biography.html">Auto-biography</a></li>
-                            <li><a href="Life-statics.html">Life-statics</a></li>
+                            <li><a href="Auto-biography.html">Software</a></li>
                         </ul>
                     </li>
                     <li><a href="#contact" data-toggle="modal">Contact</a></li>
-					<li id="login"><a href="login.html" data-toggle="modal">LogIn</a></li>
+                    <li><a href="#login" data-toggle="modal">Login</a></li>
+                    
                 </ul>
             </div>
         </div>
     </div>
-    <div id="container">
-        <div class="content">
-            <div class="post">
-                <h4>Topic</h4>
-                <p>Sample of blog</p>
+    <div class="modal fade" id="login" role="dialog">
+     <div class="modal-dialog">
+		<div class="modal-content">
+			<form class="form-horizontal">
+						<div class="modal-header">
+						<h2>Please, log in</h2>
+						</div>
+						<div class="modal-body">
+  							<div class="form-group">
+    								<label  for="exampleInputEmail1">Email or Username</label>
+    								<div class="input-group">
+  									<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+  									<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+								</div>
+  							</div>
+  							<div class="form-group">
+    								<label  for="exampleInputPassword1">Password</label>
+    								<div class="input-group">
+  									<span class="input-group-addon"><span class="glyphicon glyphicon-star"></span></span>
+  									<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+								</div>
+  							</div>
+						</div>
+						<div class="modal-footer">
+  							<hr/>
+  							<button type="button" class="btn btn-success"><span class="glyphicon glyphicon-arrow-left"></span> Back</button>
+  							<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-lock"></span> Login</button>
+  							<p><br/></p>
+						</div>
+			</form>
+  					
+		</div>
+  	</div>
+</div>
+    
+	
+	
+    <div class="container">
+        <div class="jumbotron">
+            <h1>A first word...</h1>
+            <p>Hello, this is my first website using bootstrap.</p>
+            <p>Any comment? Leave them in my <a href="blog.html">blog</a>.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div><a href="#">Facebook</a></div>
+                <p style="color:white">fgvfdsgfdgfdgsfdgsfdgs</p>
+
+            </div>
+
+            <div class="col-md-3">
+                <div><a href="#">Facebook</a></div>
+                <p>fgvfdsgfdgfdgsfdgsfdgs</p>
+
+            </div>
+
+            <div class="col-md-3">
+                <div><a href="#">Facebook</a></div>
+                <p>fgvfdsgfdgfdgsfdgsfdgs</p>
+
+            </div>
+
+            <div class="col-md-3">
+                <div><a href="#">Facebook</a></div>
+                <p>fgvfdsgfdgfdgsfdgsfdgs</p>
+
 
             </div>
         </div>
-    </div>
-        <p>hihihiiihihii</p>
-
-
     </div>
     <div class="modal fade" id="contact" role="dialog">
         <div class="modal-dialog">
@@ -103,6 +165,13 @@
             </div>
         </div>
     </div>
+    
+   
+
+
+
+
+
     <div class="navbar navbar-default navbar-fixed-bottom">
         <div class="container">
             <p class="navbar-text pull-left">Mijn eerste website met bootstrap3</p>
