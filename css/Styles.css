@@ -24,5 +24,7 @@ form{
 }
 #hobby{
 	position:static-right;
-	width:500pxpx;
+	width:500px}
+	.modal-dialog{
+	position:center;
 }
