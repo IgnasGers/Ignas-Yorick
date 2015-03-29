@@ -29,20 +29,27 @@ form{
 	height:800px;
 	position:relative;
 }
-#gegevensjumbotron{
-	display:flex;
-}
+
 #homepagejumbotron{
 	width:800px;
 	height:300px;
 }
-#inleiding-software{
+#jumbotron-inleiding-software{
 	width:800px;
 	height:150px;
+	position:center;
 }
-#jumbotron-programmeer-talen{
+#well-programmeer-talen{
 	width:800px;
 	height:200px;
+}
+.img-circle{
+	
+	width:75%;
+	height:75%;
+}
+#imgsoftware{
+	height:300px;
 }
 
 	
