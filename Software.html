@@ -3,20 +3,23 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/Styles.css" rel="stylesheet" />
-    <title>Software</title>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 	
-	<script> 
-        $(function()
-        {
-            $('#button-Javascript').click(function ()
-            {
-                
-            });
-		
+    <title>Software</title>
+	<style>
+	
+</style>
+<script>
+	$(document).ready(function(){
+		$("#button-CSS" ).click(function(){
+			alert("hihihi");
+			console.log("klik op button html")
 		});
-	</script>
+	});
+ </script>
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-static-top">
@@ -108,14 +111,44 @@
                 <p> </p>
                 <li>JavaScript</li>
             </ul>
-            <button id="button-talen" type="button" class="btn btn-info pull-right">Html Info</button>
-            <button id="button-talen" type="button" class="btn btn-info pull-right">CSS Info</button>
-            <button id="button-talen" type="button" class="btn btn-info pull-right">jQuery Info</button>
-            <button id="button-Javascript" type="button" class="btn btn-info pull-right">JavaScript Info</button>
+            <button href="#button-Html" data-toggle="modal" type="button" class="btn btn-info pull-right">Html Info</button>
+            <button href="#button-CSS" data-toggle="modal" type="button" class="btn btn-info pull-right">CSS Info</button>
+            <button href="#button-jQuery" data-toggle="modal" type="button" class="btn btn-info pull-right">jQuery Info</button>
+            <button href="#button-JavaScript" data-toggle="modal" type="button" class="btn btn-info pop pull-right">JavaScript Info</button>
+			
+			
+			
         </div>
     </div>
 
-
+<div class="modal fade" id="button-Html" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<p>hihihihi</p>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="button-CSS" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<p>hihihih</p>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="button-jQuery" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<p>hihihihi</p>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="button-JavaScript" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<p>hihihihi</p>
+		</div>
+	</div>
+</div>
 
 
 
@@ -214,8 +247,8 @@
             <p class="navbar-text pull-left"><strong>Web-Developers: </strong>Ignas Gers and Christophe Dumont <strong>& Game-Developer: </strong>Yorick Scheyltjens</p>
         </div>
     </div>
-
-    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	
+    
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
