@@ -6,12 +6,9 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/Styles.css" rel="stylesheet" />
-	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-	
     <title>Software</title>
 
-<script>
- </script>
+
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-static-top">
@@ -27,8 +24,6 @@
 
             <div class="collapse navbar-collapse navHeaderCollapse">
                 <ul class="nav navbar-nav navbar-right">
-
-
                     <li class=""><a href="index.html">Home</a></li>
                     <li><a href="Blog.html">Blog</a></li>
                     <li class="dropdown">
@@ -49,7 +44,6 @@
                     </li>
                     <li><a href="#contact" data-toggle="modal">Contact</a></li>
                     <li><a href="#login" data-toggle="modal">Login</a></li>
-
                 </ul>
             </div>
         </div>
@@ -281,7 +275,11 @@
     </div>
 	
     
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js">
+		$(document).ready(function(){
+			$('p').fadeIn('slow',1);
+		});
+	</script>
     <script src="js/bootstrap.min.js"></script>
-    
 </body>
 </html>
